@@ -39,9 +39,6 @@ Warning:
 - the user should not be an admin
 - the user should only have access from local network
 
-### IDE
-
-
 ### VS Code
 
 1. install VS Code
@@ -84,3 +81,7 @@ Warning:
    1. should show progress `Loading into Flash: [====] 100%` and `[SUCCESS]`
    1. if not, make sure you have installed the udev rules properly...
    1. warning: Upload over USB is [not possible currently on Chromebooks](https://bugs.chromium.org/p/chromium/issues/detail?id=980456). Therefore, the first upload MUST take place from another O/S (ie. Fedora) and subsequent uploads can happen OTA from Chromebook
+
+### OTA upload
+
+- hostname: `humidifierProxyTest.local`
