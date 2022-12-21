@@ -4,7 +4,7 @@
 #include <ArduinoHA.h>
 #include <WiFi.h>
 
-#define DEVICE_ID "humidifierProxyTest"
+#define DEVICE_ID "humidifierProxy"
 #define DEVICE_NAME "Humidifier Proxy"
 #define FIRMWARE_VERSION "1.0.0"
 

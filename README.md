@@ -84,4 +84,4 @@ Warning:
 
 ### OTA upload
 
-- hostname: `humidifierProxyTest.local`
+- hostname: `humidifierProxy.local`
