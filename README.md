@@ -82,6 +82,18 @@ Warning:
    1. if not, make sure you have installed the udev rules properly...
    1. warning: Upload over USB is [not possible currently on Chromebooks](https://bugs.chromium.org/p/chromium/issues/detail?id=980456). Therefore, the first upload MUST take place from another O/S (ie. Fedora) and subsequent uploads can happen OTA from Chromebook
 
-### OTA upload
+### hostname
 
-- hostname: `humidifierProxy.local`
+the device should get `humidifierProxy.local` as a hostname on the local network
+
+### secrets
+
+copy `secrets.h.template` to `secrets.h` and insert values.
+note that not all characters are allowed to be used for OTA auth.
+the `*` for example, is safe to use.
+
+## reference
+
+1. [arduino-esp32](https://docs.espressif.com/projects/arduino-esp32/en/latest/libraries.html)
+1. [ESP32 BLE Guide](https://github.com/nkolban/esp32-snippets/blob/master/Documentation/BLE%20C%2B%2B%20Guide.pdf)
+1. [ESP32 BLE Example](https://randomnerdtutorials.com/esp32-ble-server-client/)

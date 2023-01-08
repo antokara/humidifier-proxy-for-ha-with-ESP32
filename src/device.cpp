@@ -43,7 +43,7 @@ HAMqtt Device::mqtt(Device::client, Device::device, 7);
  * @brief a status string sensor
  * for the general status/health of the device
  */
-HASensor Device::statusSensor("humidifierProxyStatus");
+HASensor Device::statusSensor("humidifierProxy_Status");
 
 /**
  * @brief flag to keep track of the first loop
@@ -255,7 +255,7 @@ void Device::setup()
   // Device::device.enableLastWill();
 
   // set the status sensor details
-  Device::statusSensor.setName("Status");
+  Device::statusSensor.setName("Humidifier Proxy Status");
   Device::statusSensor.setIcon("mdi:check-circle");
   Device::statusSensor.setForceUpdate(true);
 
